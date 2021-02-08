@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.Quantum.Sdk/0.15.2101125897">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <QscExe>dotnet C:\Users\skais\git\microsoft\qsharp-compiler\src\QsCompiler\CommandLineTool\bin\Debug\netcoreapp3.1\qsc.dll</QscExe>
+    <AdditionalQscArguments>--qir QIR</AdditionalQscArguments>
+  </PropertyGroup>
+
+</Project>
