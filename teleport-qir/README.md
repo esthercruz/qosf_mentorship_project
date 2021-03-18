@@ -1,6 +1,13 @@
 # Building the Teleport QIR sample
 
-## Steps to compile Q# -> QIR
+## Ways to build and run this QIR sample
+
+- **Docker**: The docker image in `../.devcontainer` should be updated and work with the version of the QKD specified in the project file. It is a basic Ubuntu container that then installs the .NET SDK and `libgomp1`.
+- **Local**: If your machine already has a valid .NET 3.1 SDK install, you should be good to use this directly! Just run `dotnet run` in this directory.
+
+---
+---
+## OLD: Steps to compile Q# -> QIR
 _last updated 8 Feb 2021_
 
 1. Check out the latest Q# compiler source from the [QIR feature branch](https://github.com/microsoft/qsharp-compiler/tree/feature/qir)
